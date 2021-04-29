@@ -1,6 +1,6 @@
 # AI-Data-Scraper-Eunimart
 
-1.) This Repo contains the Data_Scraper in Python.
+1.) This Repo contains Data_Scraper in Python.
 
 2.) As GITHUB does not accept large CSV files, i have given the CSV file link below. 
 
