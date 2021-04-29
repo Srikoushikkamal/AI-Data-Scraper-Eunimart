@@ -9,8 +9,8 @@
   
   Conditions met as per given problem constraints :
   
-  >> Review Title
-  >> Review Description
-  >> Number Of Stars
-  >> Review Given By
-  >> Date
+  >> Review Title ||
+  >> Review Description ||
+  >> Number Of Stars ||
+  >> Review Given By ||
+  >> Date ||
