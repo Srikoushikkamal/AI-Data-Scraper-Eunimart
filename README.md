@@ -3,7 +3,7 @@
 1.) This Repo contains Data_Scraper in Python.
 
 ## Follow Steps To Run In Your System
-  >> Run the above Data_Scraper in a python Environment.
+  >> 1.) Run the above Data_Scraper in a python Environment.<br>
   >> Change the create file snippet to your local required path.
   >> Check the headers before running the file, if not applicable try with your own headers by clicking this link-> https://www.whatismybrowser.com/detect/what-is-my-user-agent
   >> Scraping Done For All The Review Pages OF Amazon. 
