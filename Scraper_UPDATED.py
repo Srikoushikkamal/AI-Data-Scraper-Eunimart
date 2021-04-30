@@ -51,7 +51,7 @@ def getnextpage(soup):
 	pages = soup.find('ul', {'class': 'a-pagination'})
 	if not pages.find('li', {'class': 'a-disabled a-last'}):
 		url = 'https://www.amazon.co.uk' + str(pages.find('li', {'class': 'a-last'}).find('a')['href'])
-		return url
+		return url #RETURNS NEXT PAGE URL
 	else:
 		return
 
