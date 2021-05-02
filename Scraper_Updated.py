@@ -42,7 +42,6 @@ def getdata(url):
         csv.append(date_upd[i])
         writer.writerow(csv)
         print(csv)
-	#title_up
         return soup
 
 def getnext_page(soup):
@@ -54,13 +53,13 @@ def getnext_page(soup):
 	else:
 		return
 
-file=open("/home/skk/Desktop/SHEETS","w") # USE YOUR LOCAL PATH
+file=open("/home/skk/Desktop/Amazon_Reviews","w") # USE YOUR LOCAL PATH
 writer=csv.writer(file)
 writer.writerow(["Title","Description","Stars","Review by","Date"])
 
 
 while True:
     data=getdata(url)
-    next_page_url = getnext_page(data)
+    url = getnext_page(data)
     if not url:
         break
